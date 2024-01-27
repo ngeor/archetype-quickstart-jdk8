@@ -5,6 +5,10 @@
 
 A Maven archetype for a simple Java app, updated for Java 8.
 
+**Archived project!**
+This project is **archived** and will be **removed**.
+It has moved [here](https://github.com/ngeor/kamino/tree/master/archetypes/archetype-quickstart-jdk8).
+
 This is effectively the same as the maven-archetype-quickstart,
 with the following changes:
 

@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0.2] - 2025-06-05
+
+### Miscellaneous Tasks
+
+- Upgrade Maven plugins
+
+## [3.0.1] - 2025-02-04
+
+### Miscellaneous Tasks
+
+- Migrated back to single repo
+- Added sortpom
+
 ## [2.8.3] - 2024-01-26
 
 ### Bug Fixes

@@ -3,12 +3,12 @@
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.ngeor/archetype-quickstart-jdk8.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/com.github.ngeor/archetype-quickstart-jdk8)
 [![build](https://github.com/ngeor/archetype-quickstart-jdk8/actions/workflows/build.yml/badge.svg)](https://github.com/ngeor/archetype-quickstart-jdk8/actions/workflows/build.yml)
 
-A Maven archetype for a simple Java app, updated for Java 8.
+A Maven archetype for a simple Java app, updated for Java LTS.
 
 This is effectively the same as the maven-archetype-quickstart,
 with the following changes:
 
-- Java version set to 8
+- Java version set to LTS
 - jUnit 5
 - fixed indentation and formatting (4 spaces)
 - removed typo "rigourous" from `AppTest.java` because it is annoying
@@ -19,9 +19,8 @@ In addition to the improvements mentioned above,
 the following new features are implemented:
 
 - .gitignore file
-- checkstyle rules
 - enforcer plugin
-- checkstyle plugin
+- spotless plugin
 - jacoco plugin
 - javadoc plugin
 
@@ -37,11 +36,11 @@ mvn archetype:generate -DgroupId=com.mycompany.myapp \
     -DartifactId=myapp \
     -DarchetypeGroupId=com.github.ngeor \
     -DarchetypeArtifactId=archetype-quickstart-jdk8 \
-    -DarchetypeVersion=2.8.0 \
+    -DarchetypeVersion=3.0.4 \
     -DinteractiveMode=false
 ```
 
-Tip: double check `2.8.0` is the latest version, in case this README is outdated
+Tip: double check `3.0.4` is the latest version, in case this README is outdated
 (happens to the best of us).
 
 ## Contributing

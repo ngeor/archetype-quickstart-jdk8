@@ -27,18 +27,14 @@
     <url>https://github.com/ngeor/archetype-quickstart-jdk8</url>
   </scm>
   <properties>
-    <assertj-bom.version>3.27.3</assertj-bom.version>
-    <jacoco-maven-plugin.version>0.8.14</jacoco-maven-plugin.version>
-    <jacoco.unit-tests.limit.instruction-ratio>25%</jacoco.unit-tests.limit.instruction-ratio>
     <java.version>25</java.version>
-    <junit.version>5.11.4</junit.version>
     <maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
     <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
     <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
     <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
     <maven.compiler.release>${java.version}</maven.compiler.release>
-    <palantir.version>2.39.0</palantir.version>
+    <palantir.version>2.89.0</palantir.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spotless-maven-plugin.version>3.4.0</spotless-maven-plugin.version>
   </properties>
